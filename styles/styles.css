@@ -1,0 +1,8 @@
+* { 
+    line-height: 1.5em;
+}
+
+recipe-list.link {
+    list-style: none;
+    text-decoration: none;
+}
