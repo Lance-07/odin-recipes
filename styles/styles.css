@@ -1,8 +1,41 @@
 * { 
     line-height: 1.5em;
+    font-family: 'Courier New', 'Trebuchet MS', 'Tahoma';
 }
 
-recipe-list.link {
-    list-style: none;
+body {
+    background-color: antiquewhite;
+}
+
+/* all html styles */
+.webpage-title {
+    text-align: center;
+}
+
+.ingredients, .steps {
+    background-color: azure;
+    font-size: 20px;
+}
+
+/* index styles */
+.recipe-list , .link a {
+    list-style-type: none;
     text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: azure;
+    text-align: left;
+    margin: 20px;
+}
+
+.link span {
+    color: grey;
+}
+
+
+
+/* recipe 1 */
+.recipe-description {
+    text-align: justify;
 }
